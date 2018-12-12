@@ -1,0 +1,874 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.principal{
+    width: 1500px;
+    min-height: 910px;
+    height: auto;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+
+}
+
+.cms{
+    width: 1000px;
+    min-height: 850px;
+    height: auto;
+    background-color: white;
+    margin-right: auto;
+    margin-left:  auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999; /*para ficar acima de qualquer elemento*/
+    display: none;
+}
+
+.modal{
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+
+
+header{
+    width: 1000px;
+    height: 170px;
+    background-color: #02AEEE;
+     border-radius: 15px;
+}
+
+.cabecalho{
+    width: 900px;
+    height: 140px;
+    background-color: #02AEEE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    width:500px;
+    height: 70px;
+    background-color: #02AEEE;
+    float: left;
+    margin-top: 70px;
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+.logo{
+    width: 140px;
+    height: 140px;
+    background:url(../imagens/icone.jpg);
+    background-repeat: no-repeat;
+    background-size: 140px 140px;
+    margin-left: 180px;
+    margin-top: 15px;
+    float: left;
+
+}
+
+nav{
+    width: 1000px;
+    height: 150px;
+    background-color:white;
+    margin-top: 20px;
+
+}
+
+
+.icones{
+    width: 1000px;
+    height: 110px;
+    background-color: white;
+
+}
+
+.adm_conteudo{
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.adm_conteudo img{
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+
+}
+
+.usuarios{
+    width: 250px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 20px;
+    font-family: Arial;
+    font-size: 15px;
+
+}
+
+.sair{
+    width: 70px;
+    height: 50px;
+    margin-left: auto;
+    font-family: Arial;
+    font-size: 15px;
+
+}
+
+
+.esp_conteudo{
+    width: 130px;
+    height: 30px;
+    background-color: white;
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+
+}
+
+.adm_titulo{
+    width: 1000px;
+    height: 40px;
+    background-color: white;
+
+}
+
+.admins{
+    width: 1000px;
+    min-height: 450px;
+    height: auto;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 40px;
+
+
+}
+
+.admin h2{
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.conteudos{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    background-size: 600px 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.consulta_campo{
+    width: 148px;
+    height: 40px;
+    background-color: #02AEEE;
+    float: left;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+}
+
+
+.campo_carregar{
+    width: 600px;
+    height: 40px;
+    background-color: white;
+
+}
+
+.info{
+    width: 148px;
+    height: 40px;
+    background-color: white;
+    border: solid 1px black;
+    float: left;
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+}
+
+.info img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.caixa_form{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    box-shadow: 10px 10px 50px gray;
+
+}
+
+.title_form{
+    width: 700px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.texto_title{
+    width: 600px;
+    height: 70px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 15px;
+}
+
+.texto_info{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    margin-left: auto;
+    font-size: 15px;
+
+}
+
+.fomulario{
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    font-family: Arial;
+    float: left;
+    margin-top: 30px;
+
+
+}
+
+.informacoes_campo{
+    width: 700px;
+    height: 600px;
+    background-color: white;
+
+}
+
+.caixa_central{
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+
+}
+
+.inseridos{
+    width: 300px;
+    height: 90px;
+    background-color: white;
+    float:left;
+    margin-left: auto;
+}
+
+
+.inseridos_usuarios{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+
+.inseridos input {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 250px;
+    height: 30px;
+
+}
+
+.inseridos_usuarios input[type="text" ]{
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 250px;
+    height: 30px;
+
+}
+
+.inseridos_usuarios input[type="password" ]{
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 250px;
+    height: 30px;
+
+}
+
+.inseridos_usuarios input[type="email" ]{
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 250px;
+    height: 30px;
+
+}
+
+.inseridos_usuarios input[type="number" ]{
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 250px;
+    height: 30px;
+
+}
+
+
+
+
+.option{
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 250px;
+    height: 30px;
+
+}
+
+.btnUser{
+    width: 300px;
+    height: 50px;
+
+}
+
+#form_nivel input[type="submit"]{
+    margin-left: 300px;
+    margin-top: -50px;
+
+}
+
+#form_nivel select{
+    width: 250px;
+
+}
+
+
+
+.inseridos select{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+}
+
+.inseridos label {
+    margin-bottom: 0.2em;
+    color: #666;
+    display: block;
+}
+
+
+.area_usuario{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.icones_usuario{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 70px;
+    float: left;
+}
+
+.icones_usuario img{
+    width: 200px;
+    height: 200px;
+}
+
+.icones_usuario:hover{
+     -webkit-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     transform: scale(1.1);
+}
+
+.title_usuario{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 15px;
+    background-color: white;
+    float: left;
+}
+
+
+.area_nivel{
+    width: 700px;
+    height: 350px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:90px;
+
+}
+
+.title_nivel{
+    width: 700px;
+    height: 30px;
+    background-color: white;
+    font-family: Arial;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.cadastro{
+    width: 700px;
+    height: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.conteudos_niveis{
+    width: 550px;
+    min-height: 100px;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.consulta_campo_nivel{
+    width: 180px;
+    height: 40px;
+    background-color: #02AEEE;
+    float: left;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+}
+
+.campo_carregar_niveis{
+    width: 550px;
+    height: 40px;
+    background-color: white;
+
+}
+
+.info_niveis{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border: solid 1px black;
+    float: left;
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+
+}
+
+.info_niveis img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+/*Administração de conteudos*/
+
+.paginas{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.paginas_segunda{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.icone_conteudos{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    /*margin-left: auto;
+    margin-left: auto;*/
+    margin: 15px;
+
+}
+
+.icone_conteudos img{
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.gerenciar_destaques{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Pagina de destaques*/
+
+.cadastrar_noticia{
+    width: 800px;
+    height: 300px;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.conteudo{
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    margin-top: 10px;
+    background-color: white;
+    float: left;
+
+}
+
+.imagem{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+.title_banca{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.consulta_campo_banca_historia{
+    width: 250px;
+    height: 40px;
+    background-color: #02AEEE;
+    float: left;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+
+}
+
+.info_historia{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border: solid 1px black;
+    float: left;
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+
+}
+
+.info_historia img{
+    width: 50px;
+    height: 50px;
+    padding-top: 50px;
+
+}
+
+.cadastro_banca{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    background-color: white;
+
+
+}
+
+.caixas_cadastro{
+    width: 400px;
+    min-height:100px;
+    height: auto;
+    background-color: white;
+    float: left;
+    margin-top: 5px;
+
+}
+
+.cadastro_valorescorp{
+    width: 400px;
+    height:100px;
+    background-color: white;
+
+}
+
+.caixas_cadastro_valores{
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    float: left;
+    background-color: white;
+
+
+}
+
+.btnDestaques{
+    width: 150px;
+    height: 50px;
+    background-color: #02AEEE;
+   margin-top: 20px;
+}
+.caixa_foto{
+    width: 300px;
+    height: 100px;
+    float: left;
+    background-color: white;
+    margin-top: 50px;
+
+}
+
+.caixa_botao{
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    background-color: white;
+
+}
+
+.btnbanca{
+    width: 150px;
+    height: 50px;
+    margin-top: -10px;
+    background-color: #02AEEE;
+
+}
+
+.btnbanca_historia{
+    width: 150px;
+    height: 50px;
+    background-color: #02AEEE;
+    margin-top: 250px;
+    margin-left: -20px;
+}
+
+
+
+
+.tabela_bancas{
+    width: 500px;
+    min-height: 300px;
+    height: auto;
+    overflow: hidden;
+    background-color: white;
+    float: left;
+}
+
+
+.consulta_campo_banca{
+    width: 164px;
+    height: 40px;
+    background-color: #02AEEE;
+    float: left;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+
+}
+.info_banca{
+    width: 164px;
+    height: 40px;
+    overflow: hidden;
+    background-color: white;
+    border: solid 1px black;
+    float: left;
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+}
+
+.info_banca img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.campo_carregar_banca{
+    width: 500px;
+    height: 40px;
+    background-color: white;
+
+
+}
+
+.adm_conteudo:hover{
+     -webkit-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     transform: scale(1.1);
+}
+
+.icone_conteudos:hover{
+     -webkit-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     transform: scale(1.1);
+}
+
+.caixas_cadastro input[type="text" ]{
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    width: 250px;
+    height: 30px;
+
+}
+
+.cadastrar_valores{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+input,select{
+    width:300px;
+    height:35px;
+    margin-top: 5px;
+
+}
+
+.cadastro_menu{
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+
+}
+
+.conteudos_menu{
+    width: 350px;
+    min-height: 100px;
+    height: auto;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+.consulta_campo_menu{
+    width: 150px;
+    height: 40px;
+    background-color: #02AEEE;
+    float: left;
+    text-align: center;
+    color: white;
+    border: solid 1px black;
+}
+
+.campo_carregar_menu{
+    width: 350px;
+    height: 40px;
+    background-color: white;
+
+}
+
+.info_menu{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: solid 1px black;
+    float: left;
+    font-size: 15px;
+    font-family: arial;
+    text-align: center;
+
+}
+
+.info_menu img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.cadastro_produtos{
+    width: 450px;
+    min-height: 300px;
+    height: auto;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+
+}
+
+.area_cadastro_produto{
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    background-color: white;
+
+}
+
+.admins_produtos{
+  width: 500px;
+  min-height: 450px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-top: 40px;
+
+}
